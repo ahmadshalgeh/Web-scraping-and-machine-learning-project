@@ -5,9 +5,9 @@ import mysql.connector
 
 
 mydb = mysql.connector.connect(user='root',
-                              password='ahmadsh001',
+                              password='your_password',
                               host='127.0.0.1',
-                              database='car')
+                              database='database_name')
 
 #x = persian.convert_fa_numbers("۱۳۷۱۳۷۱۱۳۷۱۱")
 #print(x)
